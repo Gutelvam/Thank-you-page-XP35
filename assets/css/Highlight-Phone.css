@@ -1,0 +1,1033 @@
+#Cards_somos{
+  background-color: #FF9933;;
+}
+
+.card_round{
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+.highlight-phone {
+  margin-top: 5%;
+  color: #313437;
+  background-color:white;
+  padding: 50px 0 55px;
+  overflow: hidden;
+}
+
+/*---------------------Form--------------------*/
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#form-header {
+  width: 55%;
+}
+
+#form-header-text {
+  padding-left: 10.2%;
+  font-weight: 200;
+  font-size: 2.4em;
+  line-height: 1.3em;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  width:90%;
+}
+
+#form-header-text b{
+  font-weight: 600;
+}
+
+#form-steps {
+  display: flex;
+  justify-content: right;
+  background: #FFFFFF;
+  border-radius: 50px;
+  position:relative;
+  float:right;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  width: 35%;
+  height: 60%;
+
+}
+
+.form-steps-input{
+  margin-top: 10%;
+}
+
+#form-steps-inputs{
+  width: 75.3%;
+  height: 100%;
+}
+
+header {
+  padding: 156px 0 100px;
+}
+
+#img-branding-laranja {
+  width: 18%;
+  position: relative;
+  left: -2%;
+  bottom: 710px;
+  min-width: 120px;
+}
+
+input {
+  background: #f1f1f1;
+  border-radius: 37.5px;
+  width: 100%;
+  height: 7vh;
+  margin-top: 1%;
+  min-height: 40px;
+  padding-left: 6%;
+}
+
+input[type="submit"]{
+  width: 87%;
+  background-color: #ff8819;
+  color: #063273; 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+input[type="submit"]:hover{
+  background-color: #b95a00;
+  cursor: pointer;
+}
+
+#form-button {
+  padding-left: 0;
+}
+
+#cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+label {
+  margin-left: 6%;
+  font-size: 1rem;
+}
+
+nav {
+  box-shadow: rgba(0,0,0,0.25);
+}
+
+#LGPD {
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  background-color: #063273;
+  color: #FFFFFF;
+  padding-left: 50%;
+  position: relative;
+  bottom: 90px;
+  padding-bottom: 50px;
+}
+
+#LGPD .icon {
+  font-style: normal;
+}
+/*-----------------------------------------------------*/
+
+
+@media (max-width:767px) {
+  .highlight-phone {
+    text-align: center;
+  }
+}
+
+.highlight-phone p {
+  color: #7d8285;
+}
+
+.highlight-phone h2 {
+  font-weight: bold;
+  margin-bottom: 35px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+}
+
+.highlight-phone .intro {
+  font-size: 18px;
+  max-width: 500px;
+  line-height: 1.5;
+}
+
+@media (max-width:767px) {
+  .highlight-phone .intro {
+    max-width: none;
+  }
+}
+
+.highlight-phone .intro p {
+  margin-bottom: 35px;
+}
+
+.highlight-phone .intro .btn {
+  padding: 16px 32px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+}
+
+.highlight-phone .intro .btn:hover {
+  opacity: 1;
+}
+
+.highlight-phone .intro .btn:active {
+  transform: translateY(1px);
+}
+
+.highlight-phone .intro .btn-primary {
+  background-color: #055ada;
+  color: #fff;
+}
+
+.highlight-phone .iphone-mockup {
+  position: relative;
+  max-width: 260px;
+  margin-top: -30px;
+  margin-bottom: -230px;
+  transform: rotate(-15deg);
+}
+
+.highlight-phone .iphone-mockup img.device {
+  width: 100%;
+  height: auto;
+}
+
+.highlight-phone .iphone-mockup .screen {
+  position: absolute;
+  width: 88%;
+  height: 77%;
+  top: 12%;
+  border-radius: 2px;
+  left: 6%;
+  border: 1px solid #444;
+  background-color: #aaa;
+  overflow: hidden;
+  background: url(../../assets/img/screen-content-iphone-6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.highlight-phone .iphone-mockup .screen:before {
+  content: '';
+  background-color: #fff;
+  position: absolute;
+  width: 70%;
+  height: 140%;
+  top: -12%;
+  right: -60%;
+  transform: rotate(-19deg);
+  opacity: 0.2;
+}
+
+
+
+
+* {
+  padding: 0;
+  margin: 0 ;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+  box-sizing: border-box;
+}
+
+  /* =================================== Layout ===================================*/
+
+h3, label, input {
+  font-family: 'Baloo Tamma 2', cursive;
+}
+h6{
+color: #595959; font-style: oblique;
+font-family: 'Baloo Tamma 2', cursive;
+}
+
+input, label {
+  color: #7e7272;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 2vh;
+  letter-spacing: 0.05em;
+}
+
+body{
+  padding-bottom: 70px;
+  background-color: white;
+}
+
+/* Hero Style =====================================================================================================================*/
+p {
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: bold;
+}
+
+#hero {
+  background-color: #f1f1f1;
+  display: flex;
+  padding-top: 140px;
+  align-items: flex-start;
+  height: 90vh;
+  padding-bottom: 0%;
+}
+
+#button-1{
+  background-color: #FE9833;;
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 50px;
+  text-transform: uppercase;
+  line-height: 2vh;
+  width: 80%;
+  height: 100px;
+  color: #0945A0;
+
+}
+
+#text-card{
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 70px;
+  text-transform: uppercase;
+  line-height: 2vh;
+  width: 80%;
+  height: 60px;
+  color: #0945A0;
+  align-content: center;
+  margin-left: 10%;
+}
+
+#text-quemsomos{
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 45px;
+  text-transform: uppercase;
+  line-height: 2vh;
+  width: 80%;
+  height: 60px;
+  color: #0945A0;
+  align-content: center;
+  margin-left: 10%;
+  margin-top: 2%;
+  line-height: .8;
+  margin-bottom: 2%;
+}
+
+#bot{
+  font-family: 'Baloo Tamma 2', cursive;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 0%;
+  margin-top: 0em;
+  margin-left: 20%;    
+  height: 100vh;
+}
+
+#bot {
+  font-family: 'Baloo Tamma 2', cursive;
+  width: 56.3%;
+  height: 10vh;
+  background-color: #ff8819;
+  border-radius: 100px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+#button:hover {
+  background-color: #b95a00;
+  cursor: pointer;
+}
+
+#button a {
+  color: #063273; 
+  font-style: normal;
+  font-weight: bold;    
+  letter-spacing: 0.05em;
+}
+
+#button a:hover {
+  text-decoration: none;
+}
+
+#conteudo {
+  width: 67%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding-left: 10%;
+  padding: 100px;
+}
+
+#conteudo h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.6rem;
+  line-height: 1.3em;
+  letter-spacing: 0.1em;
+  color: #063273;
+  width: 80%;
+  padding-bottom: 1%;
+}
+
+#conteudo h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.7em;
+  line-height: 0.7em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #063273;
+  width: 80%;
+  padding-bottom: 2%;
+}
+
+#conteudo p {
+  font-family: 'Baloo Tamma 2', cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  color:#000000;
+  width: 80%;
+  margin-top: 0.1vh;
+}
+
+#imagem {
+  padding-top: 100px;
+  width: 50%;
+  height: auto;
+  
+}
+
+#text-up{
+  padding-top: 5%;
+}
+
+
+#img-main {
+  width: 100%;
+  min-width: 400px;
+  float:right;
+  border-radius: 40px 0 0 30px;
+}
+
+#elipse{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: absolute; 
+  bottom: 0px; 
+  margin-left: 10%;
+}
+
+#elipse-0{
+  position: relative;
+  float: right;
+  left: 100%;
+  right: 0%;
+  bottom: 200px;
+  width: 10%;
+  min-width: 65px;
+  margin: 0 auto;
+  padding-right: 5%;
+  margin-left: 10%;
+}
+.elipse-3 {
+  position: relative;
+  float: right;
+  left: 100%;
+  right: 0%;
+  bottom: 200px;
+  width: 10%;
+  min-width: 100px;
+  margin-left: 10%;
+  padding-right: 5%;
+
+
+
+
+/* quem-somos =====================================================================================================================*/
+
+.article-list {
+  color: #313437;
+  background-color: #ff8819;
+  margin-top: 15%;
+}
+
+.article-list p {
+  color: #7d8285;
+}
+
+.article-list h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  
+}
+
+@media (max-width:767px) {
+  .article-list h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.article-list .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.article-list .intro p {
+  margin-bottom: 0;
+}
+
+.article-list .articles {
+  padding-bottom: 40px;
+}
+
+.article-list .item {
+  padding-top: 50px;
+  min-height: 425px;
+  text-align: center;
+}
+
+.article-list .item .name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+  color: inherit;
+}
+
+.article-list .item .description {
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.article-list .item .action {
+  font-size: 24px;
+  width: 24px;
+  margin: 22px auto 0;
+  line-height: 1;
+  display: block;
+  color: #4f86c3;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+  text-decoration: none;
+}
+
+.article-list .item .action:hover {
+  opacity: 1;
+}
+
+
+
+/* card-somos =====================================================================================================================*/
+
+
+h3{
+  text-align: center;
+  font-size: 25px;
+}
+
+.descDestaque{
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+}
+
+
+#img-branding-azul-2 {
+  position: relative;
+  float: right;
+  right: 5%;
+  width: 12%;
+  min-width: 150px;
+}
+
+/* Form Style =================================================================================================================================== */
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+#form-header-text {
+  padding-left: 10.2%;
+  font-weight: 200;
+  font-size: 2.4em;
+  line-height: 1.3em;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  width:90%;
+}
+
+#form-header-text b{
+  font-weight: 600;
+}
+
+#img-form{
+  display: flex;
+  justify-content: center;
+  background: #FFFFFF;
+  border-radius: 50px;
+  position:relative;
+  float:left;
+}
+
+#form-steps {
+  display: flex;
+  justify-content: center;
+  background: #FFFFFF;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 60%;
+}
+
+.form-steps-input{
+  margin-top: 10%;
+}
+
+#form-steps-inputs{
+  width: 75.3%;
+  height: 100%;
+}
+
+header {
+  padding: 156px 0 100px;
+}
+
+#img-branding-laranja {
+  width: 18%;
+  position: relative;
+  left: -2%;
+  bottom: 710px;
+  min-width: 120px;
+}
+
+input {
+  background: #f1f1f1;
+  border-radius: 37.5px;
+  width: 100%;
+  height: 7vh;
+  margin-top: 1%;
+  min-height: 40px;
+  padding-left: 6%;
+}
+
+input[type="submit"]{
+  width: 87%;
+  background-color: #ff8819;
+  color: #063273; 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+input[type="submit"]:hover{
+  background-color: #b95a00;
+  cursor: pointer;
+}
+
+#form-button {
+  padding-left: 0;
+  font-family: 'Baloo Tamma 2', cursive;
+  font-style: normal;
+}
+
+#cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+label {
+  margin-left: 6%;
+  font-size: 1rem;
+  
+}
+
+nav {
+  box-shadow: rgba(0,0,0,0.25);
+}
+
+#LGPD {
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  background-color: #063273;
+  color: #FFFFFF;
+  padding-left: 50%;
+  position: relative;
+  bottom: 90px;
+  padding-bottom: 50px;
+}
+
+#LGPD .icon {
+  font-style: normal;
+}
+
+
+/* MEDIA QUERIES ================================================================================================================= */
+
+@media (min-width: 1400px){
+  .bg-company-white  {
+      background-color: white;     
+  }
+
+  #hero {
+      height: 110vh;
+  }
+
+  #conteudo {
+      padding-left: 7%;
+      width: 62%;
+  }
+
+  #conteudo h1, #card-somos h1, #form-header-text {
+      font-size: 3rem;
+      line-height: 1.7em;
+      letter-spacing: 0.05em;
+  }
+  
+  #conteudo p, label {
+      font-size: 1.3em;
+      line-height: 1.5em;
+      letter-spacing: 0.06em;
+  }
+
+  #imagem {
+      width: 51%;
+  }
+
+}
+
+@media(max-width:1340px){
+
+  #hero {
+      height: 100vh;
+  }
+
+  #conteudo h1, #card-somos h1, #quem-somos h1 {
+      font-size: 2.2rem;
+      line-height: 1.4em;
+      letter-spacing: 0.05em;
+  }
+  
+  #conteudo p, label, #quem-somos p {
+      font-size: 1em;
+      line-height: 1.2em;
+      letter-spacing: 0.05em;
+  }
+
+  #conteudo button a {
+      font-size: 1.1em;
+      line-height: 1.1em;
+      letter-spacing: 0.05em;
+  }
+
+
+}
+@media(max-width:1040px){
+
+  #conteudo h1, #card-somos h1, #quem-somos h1 {
+      font-size: 1.7rem;
+      line-height: 1.4em;
+      letter-spacing: 0.05em;
+  }
+  
+  #conteudo p, label {
+      font-size: 1.1em;
+      line-height: 1.1em;
+      letter-spacing: 0.05em;
+  }
+
+  #conteudo button a, #form-button {
+      font-size: 0.9em;
+      line-height: 1.1em;
+      letter-spacing: 0.05em;
+  }
+
+}
+
+@media(max-width: 500px){
+  
+  #social{
+      visibility: hidden;
+  }
+  /* hero =================================================================================================*/
+
+  #hero {
+      flex-direction: column;
+      height: 100%;
+      align-items: center;
+      padding-top: 108px;
+      padding-bottom: 40px;
+  }
+
+  #imagem {
+      position: absolute;
+      z-index: 0;
+      width: 100%;
+  }
+
+  #img-main {
+      border-radius: 0;
+  }
+
+  #conteudo {
+      z-index: 1;
+      width: 100%;
+      padding-top: 100px;
+  }
+
+  #conteudo h1, #conteudo h3 {
+      color: #FFFFFF;
+  }
+
+  #conteudo h1 {
+      width: 50%;
+      font-size: 1.6em;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      padding-bottom: 30%;
+  }
+
+  #conteudo h3 {
+      font-size: 1em;
+  }
+
+  #img-branding-azul {
+      top: -130px;
+      right: 10px;
+      width: 20%;
+  }
+
+  #conteudo p {
+      width: 90%;
+      font-weight: 400;
+  }
+
+  #conteudo button {
+      width: 80%;
+      height: 60px;
+  }
+
+  /* quem-somos =================================================================================================*/
+
+  #quem-somos{
+      margin-top: 20%;
+      padding-bottom: 4vh;
+  }
+
+  #quem-somos-text {
+      font-size: 1.7rem;
+  }
+
+  #descricao {
+      flex-direction: column;
+      width: 80%;
+      align-items: center;
+  }
+
+  #descricao div {
+      width: 100%;
+  }
+
+  #img-branding-laranja {
+      width: 10%;
+  }
+
+  /* card-somos =================================================================================================*/
+
+  #card-somos {
+      height: 100%;
+  }
+
+  #cards-holder {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .new-card {
+      width:100%;
+      margin-bottom: 10%;
+      margin-top: 10%;
+      height: 100%;
+  }
+
+  .card-descricao {
+      position: static;
+  }
+
+  #img-branding-laranja {
+      position: absolute;
+      top: 790px;
+      left: -48px;
+      z-index:0;
+  }
+
+  /* form =================================================================================================*/
+
+  .form {
+      flex-direction: column;
+      height: 100%;
+      padding: 0 0 15% 0;
+      position: relative;
+      top:-100px;
+      z-index:0;
+  }
+
+  #form-header-text{
+      padding-top: 20%;
+      font-size: 2em;
+  }
+ 
+  #form-header {
+      width: 92%;
+      padding-bottom: 5%;
+  }
+
+  #form-steps {
+      width: 70%;
+  }
+
+  #form-steps label, #form-button, #LGPD {
+      font-size: 0.6em;
+  }
+
+  #form-button {
+      padding-left: 0;
+  }
+
+  input{
+      height: 50px;
+  }
+
+  .form-steps-input {
+      margin-top: 5%;
+  }
+
+  #img-branding-azul-2 {
+      left:10%;
+      top: -80px;
+      z-index:1;
+  }
+
+  #LGPD {
+      bottom: 30px;
+      padding-bottom: 50px;
+      padding-left: 0;
+      position:relative;
+      top:-100px;
+  }
+}
+
+@media (min-width: 770px){ 
+  #social-nav{
+      visibility: hidden;
+  }
+}
+
+/* =================================== Layout thankyou page ===================================*/
+
+.total-page {
+  height: 100%;
+}
+
+.hero-thank {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#conteudo-thank h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;   
+  letter-spacing: 0.1em;
+  color: #063273;    
+  padding-bottom: 2%;    
+}
+#conteudo-thank p {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  color: #595959;
+}
+
+#conteudo-thank button {
+  width: 56.3%;
+  height: 72px;
+  background-color: #ff8819;
+  border-radius: 100px;
+  margin-top: 4vh;
+}
+
+#conteudo-thank button:hover {
+  background-color: #b95a00;
+  cursor: pointer;
+}
+
+#conteudo-thank button a {
+  color: #063273; 
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: 0.05em;
+}
+
+#conteudo-thank button a:hover {
+  text-decoration: none;
+}
