@@ -1,5 +1,5 @@
 #Cards_somos{
-  background-color: #FF9933;;
+  background-color: white;
 }
 
 .card_round{
@@ -280,7 +280,7 @@ input, label {
 
 body{
   padding-bottom: 70px;
-  background-color: white;
+  background-color: aliceblue;
 }
 
 /* Hero Style =====================================================================================================================*/
@@ -316,11 +316,9 @@ p {
   font-family: 'Baloo Tamma 2', cursive;
   font-weight: bold;
   font-style: normal;
-  font-size: 70px;
+  font-size: 40px;
   text-transform: uppercase;
-  line-height: 2vh;
-  width: 80%;
-  height: 60px;
+  line-height: 1.6;
   color: #0945A0;
   align-content: center;
   margin-left: 10%;
@@ -1009,13 +1007,13 @@ nav {
 #conteudo-thank button {
   width: 56.3%;
   height: 72px;
-  background-color: #ff8819;
+  background-color: white;
   border-radius: 100px;
   margin-top: 4vh;
 }
 
 #conteudo-thank button:hover {
-  background-color: #b95a00;
+  background-color: white;
   cursor: pointer;
 }
 
@@ -1030,4 +1028,62 @@ nav {
 
 #conteudo-thank button a:hover {
   text-decoration: none;
+}
+
+/*----------------------------footer--------------------------------------*/
+#site-footer{
+  margin-top: 30%;
+  font-family: 'Baloo Tamma 2', cursive;
+  font-style: normal;
+  font-weight: bold;
+}
+
+#text-footer{
+  margin-top: 30%;
+  font-family: 'Baloo Tamma 2', cursive;
+  font-style: normal;
+  font-weight: bold;
+}
+
+#contato {
+  font-family: 'Baloo Tamma 2', cursive;
+  color: #595959;
+  font-style: italic;
+}
+
+
+.titulo{
+  color: #063273 ;
+  font-style: oblique;
+  font-family: 'Baloo Tamma 2', cursive;  
+  font-size: 30px;
+}
+
+#texto-meio{
+  font-size: 36px;
+  font-style: oblique;
+  font-family: 'Baloo Tamma 2', cursive; 
+  color: #595959;
+}
+
+@media only screen and (min-width: 770px) {
+  h2{
+    display:none;;
+  }
+}
+
+@media only screen and (max-width: 995px) {
+  .titulo{
+    font-size: 20pt;
+  }
+  #texto-meio{
+    font-style: oblique;
+    font-family: 'Baloo Tamma 2', cursive; 
+    font-size: 25px;
+  }
+}
+
+#texto-chato{
+  font-size: 45pt;
+
 }
