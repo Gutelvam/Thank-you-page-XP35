@@ -1,5 +1,5 @@
 # Thank-you-page-XP35
-GamaXP#31
+Thanks page GamaXP#31
 
 
 Show me The Leads - XP35
